@@ -1,0 +1,165 @@
+.slider {
+	color: #ffffff;
+}
+
+.slider .trafalgarHr {
+	background: #ffffff;
+}
+
+.sliderWrapper {
+	max-width: 1220px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.slider__slide {
+	background: url(../img/slider-cover.png) no-repeat center;
+	background-size: contain;
+	height: 440px;
+	width: 1220px;
+	box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1200px) {
+	.slider__slide {
+		max-width: 1200px;
+		width: 100%;
+	}
+}
+
+.slider__slideInfo {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 33px 170px 0;
+}
+
+@media only screen and (max-width: 960px) {
+	.slider__slideInfo {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0px 100px 0;
+	}
+}
+
+.slider__slideTitle {
+	padding-top: 64px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 48px;
+}
+
+.slider__slideText {
+	max-width: 420px;
+	font-weight: 400;
+	font-size: 19px;
+	line-height: 30px;
+}
+
+.slider__slideAuthor {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+}
+
+.slider__slideAuthor--img {
+	margin-right: 30px;
+}
+
+.slider__slideAuthor--name {
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 22px;
+	margin-bottom: 11px;
+}
+
+.slider__slideAuthor--profession {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 18px;
+}
+
+.slider__nav {
+	width: 336px;
+	height: 20px;
+	padding-top: 42px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.slider__navPrev {
+	transform: rotate(-180deg);
+	opacity: 0.4;
+	width: 31.43px;
+	height: 20px;
+}
+
+.slider__navPrev:hover,
+.slider__navNext:hover {
+	opacity: 1;
+}
+
+.slider__navNext {
+	width: 31.43px;
+	height: 20px;
+	opacity: 0.4;
+}
+
+.slider__navTabs {
+	width: 94px;
+	height: 10px;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.slider__navTab {
+	background: #5B9BF3;
+	opacity: 0.3;
+	border-radius: 50%;
+	height: 10px;
+	width: 10px;
+	margin-right: 18px;
+}
+
+.slider__navTab:last-child {
+	margin-right: 0px;
+}
+
+.slider__navTab--active,
+.slider__navTab:hover {
+	opacity: 1;
+}
+
+
+@media only screen and (max-width: 960px) {
+	.slider__slideTitle {
+		padding-top: 80px;
+	}
+	.slider__slideText {
+		font-size: 16px;
+		line-height: 22px;
+		max-width: 370px;
+	}
+
+	.slider__slideAuthor--name {
+		font-size: 18px;
+		line-height: 18px;
+		margin-bottom: 11px;
+	}
+
+	.slider__slideAuthor--profession {
+		font-size: 14px;
+		line-height: 14px;
+	}
+}

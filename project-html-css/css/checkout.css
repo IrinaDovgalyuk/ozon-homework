@@ -1,0 +1,148 @@
+.checkOut {
+	padding: 220px 0;
+	position: relative;
+}
+
+@media only screen and (max-width: 1140px) {
+	.checkOut {
+		padding: 120px 0;
+	}
+}
+
+.checkOut__title {
+	text-align: center;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 56px;
+	color: #000000;
+}
+
+.checkOut__text {
+	max-width: 950px;
+	width: 100%;
+	margin: 0 auto 43px;
+	text-align: center;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 30px;
+	color: #7D7987;
+}
+
+.checkOut__articles {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 240px;
+	flex-wrap: wrap;
+}
+
+
+@media only screen and (max-width: 1599px) {
+	.checkOut__articles {
+		padding: 0 140px;
+	}
+}
+@media only screen and (max-width: 1400px) {
+	.checkOut__articles {
+		padding: 0 40px;
+	}
+}
+@media only screen and (max-width: 1140px) {
+	.checkOut__articles {
+		padding: 0 140px;
+	}
+}
+@media only screen and (max-width: 960px) {
+	.checkOut__articles {
+		justify-content: center;
+	}
+}
+
+.checkOut__articles:before {
+	content: url(../img/el-sevices.png);
+	position: absolute;
+	z-index: -1;
+	top: 4px;
+	left: 196px;
+}
+
+.checkOut__articles:after {
+	content: url(../img/bg-checkout.png);
+	position: absolute;
+	z-index: -1;
+	top: -125px;
+	right: 0px;
+}
+
+.checkOut__group {
+	width: 350px;
+	height: 512px;
+	box-sizing: border-box;
+	/*padding: 59px 45px 47px 38px;*/
+	margin: 46px 5px 0;
+	background: #FFFFFF;
+	box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+	border-radius: 20px;
+}
+
+.checkOut__group:hover {
+	box-shadow: none;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.checkOut__group:hover .checkOut__moreImg {
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	/*transform: rotate(-180deg);*/
+}
+
+.checkOut__group:last-child {
+	position: relative;
+}
+
+.checkOut__group:last-child:after {}
+
+.checkOut__groupDescription {
+	padding: 25px 51px 35px 33px;
+}
+
+.checkOut__groupImg {
+	max-height: 240px;
+}
+
+.checkOut__groupTitle {
+	font-weight: 700;
+	font-size: 21px;
+	line-height: 32px;
+	color: #000000;
+}
+
+.checkOut__groupText {
+	margin: 12px 0 25px;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 28px;
+	color: #7D7987;
+}
+
+.checkOut__moreText {
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 28px;
+	color: #4089ED;
+	text-decoration: none;
+}
+
+
+
+.checkOut__title {
+	text-align: center;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 56px;
+	color: #000000;
+}
+
+.checkOut__moreImg {
+	margin-left: 15px;
+}

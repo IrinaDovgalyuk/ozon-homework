@@ -1,0 +1,33 @@
+.button {
+	max-width: 200px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 15px 50px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 60px;
+	color: #458FF6;
+	border: 1.4px solid #458FF6;
+	box-sizing: border-box;
+	border-radius: 55px;
+}
+
+
+.button:hover,  .buttonActive{
+	color: #FFFFFF;
+	background: #458FF6;
+}
+
+
+.trafalgar__button {
+	text-align: center;
+	padding-top: 70px
+	
+}
+
+.virtual__button {
+	text-align: left;
+	padding-top: 0px;
+}

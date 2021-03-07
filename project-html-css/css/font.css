@@ -1,0 +1,18 @@
+@font-face {
+	font-family: "Mulish";
+	src: url(../fonts/static/Mulish-Light.ttf);
+	font-weight: 300;
+}@font-face {
+	font-family: "Mulish";
+	src: url(../fonts/static/Mulish-Regular.ttf);
+	font-weight: 400;
+}@font-face {
+	font-family: "Mulish";
+	src: url(../fonts/static/Mulish-Medium.ttf);
+	font-weight: 600;
+}
+@font-face {
+	font-family: "Mulish";
+	src: url(../fonts/static/Mulish-Bold.ttf);
+	font-weight: 700;
+}
