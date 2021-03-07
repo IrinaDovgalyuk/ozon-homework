@@ -1,5 +1,8 @@
 @import './font.css';
+@import './color.css';
+@import './normalize.css';
 @import './virtual.css';
+@import './header.css';
 @import './services.css';
 @import './leading.css';
 @import './download.css';
@@ -19,66 +22,6 @@
 	font-family: 'Mulish', sans-serif;
 }
 
-.header {
-	position: relative;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 56px 190px;
-}
-
-.header:before {
-	content: url(../img/el-header.png);
-	position: absolute;
-	z-index: -1;
-	top: 160px;
-	left: 0px;
-}
-
-.header__nav {
-	display: flex;
-	justify-content: space-between;
-}
-
-.header__navLink {
-	margin-left: 40px;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 23px;
-	color: #1F1534;
-	opacity: 0.5;
-	text-decoration: none;
-}
-
-.header__navLinkActive {
-	opacity: 1;
-	font-weight: 700;
-}
-
-.header__navLink:hover {
-	opacity: 1;
-	font-weight: 400;
-	cursor: pointer;
-}
-
-
-@media only screen and (max-width: 960px) {
-	.header {
-		flex-direction: column;
-		align-items: center;
-		padding: 56px 40px;
-	}
-	.header__nav{
-	display: flex;
-	justify-content: space-between;
-		flex-wrap: wrap;
-		max-width: 300px;
-	}
-	.header__logo {
-		padding-bottom: 40px;
-	}
-}
-
 .trafalgarHr {
 	box-sizing: border-box;
 	display: flex;
@@ -86,7 +29,7 @@
 	align-items: center;
 	width: 56px;
 	height: 2px;
-	background: #000000;
+	background: var(--c-black);
 	margin: 26px auto 33px;
 	border-radius: 5px;
 }

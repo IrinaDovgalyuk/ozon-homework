@@ -34,7 +34,7 @@
 	font-weight: 700;
 	font-size: 48px;
 	line-height: 56px;
-	color: #000000;
+	color: var(--c-black);
 }
 
 .virtual__aboutText {
@@ -42,28 +42,22 @@
 	font-weight: 300;
 	font-size: 21px;
 	line-height: 32px;
-	color: #7D7987;
+	color: var(--c-topaz);
 }
 
 .virtual__aboutLink {
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 60px;
-	color: #FFFFFF;
+	color: var(--c-white);
 	text-decoration: none;
-	background: #458FF6;
+	background: var(--c-cornflower-blue);
 	border-radius: 55px;
 	max-width: 120px;
 	width: 100%;
 	padding: 0 40px;
 }
 
-/*
-.virtual__imgMain {
-	width: 693px;
-	height: 598px;
-}
-*/
 .virtual__img {
 	max-width: 693px;
 	max-height: 598px;

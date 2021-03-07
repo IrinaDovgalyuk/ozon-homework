@@ -1,9 +1,9 @@
 .slider {
-	color: #ffffff;
+	color: var(--c-white);
 }
 
 .slider .trafalgarHr {
-	background: #ffffff;
+	background: var(--c-white);
 }
 
 .sliderWrapper {
@@ -141,11 +141,11 @@
 	opacity: 1;
 }
 
-
 @media only screen and (max-width: 960px) {
 	.slider__slideTitle {
 		padding-top: 80px;
 	}
+
 	.slider__slideText {
 		font-size: 16px;
 		line-height: 22px;

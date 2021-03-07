@@ -14,7 +14,7 @@
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 56px;
-	color: #000000;
+	color: var(--c-black);
 }
 
 .checkOut__text {
@@ -25,7 +25,7 @@
 	font-weight: 300;
 	font-size: 18px;
 	line-height: 30px;
-	color: #7D7987;
+	color: var(--c-topaz);
 }
 
 .checkOut__articles {
@@ -36,7 +36,6 @@
 	padding: 0 240px;
 	flex-wrap: wrap;
 }
-
 
 @media only screen and (max-width: 1599px) {
 	.checkOut__articles {
@@ -114,7 +113,7 @@
 	font-weight: 700;
 	font-size: 21px;
 	line-height: 32px;
-	color: #000000;
+	color: var(--c-black);
 }
 
 .checkOut__groupText {
@@ -122,25 +121,23 @@
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 28px;
-	color: #7D7987;
+	color: var(--c-topaz);
 }
 
 .checkOut__moreText {
 	font-weight: 600;
 	font-size: 17px;
 	line-height: 28px;
-	color: #4089ED;
+	color: var(--c-picton-blue);
 	text-decoration: none;
 }
-
-
 
 .checkOut__title {
 	text-align: center;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 56px;
-	color: #000000;
+	color: var(--c-black);
 }
 
 .checkOut__moreImg {

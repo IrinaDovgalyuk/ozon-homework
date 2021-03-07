@@ -1,7 +1,7 @@
 .footer {
 	position: relative;
 	background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
-	color: #fff;
+	color: var(--c-white);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -57,11 +57,10 @@
 	font-weight: 300;
 	font-size: 18px;
 	line-height: 38px;
-	color: #fff;
+	color: var(--c-white);
 	text-decoration: none;
 	cursor: pointer;
 }
-
 
 @media only screen and (max-width: 1140px) {
 	.footer {
